@@ -1,0 +1,24 @@
+/**	font face	**/
+
+@font-face {
+font-family: 'Josefin';
+src: url('../font/josefinsans-bold-webfont.eot');
+src: url('../font/josefinsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font/josefinsans-bold-webfont.woff') format('woff'),
+url('../font/josefinsans-bold-webfont.ttf') format('truetype'),
+url('../font/josefinsans-bold-webfont.svg#JosefinSansBold') format('svg');
+font-weight: bold;
+font-style: normal;
+}
+
+
+@font-face {
+font-family: 'Josefin';
+src: url('../font/josefinsansstd-light-webfont-webfont.eot');
+src: url('../font/josefinsansstd-light-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+url('../font/josefinsansstd-light-webfont-webfont.woff') format('woff'),
+url('../font/josefinsansstd-light-webfont-webfont.ttf') format('truetype'),
+url('../font/josefinsansstd-light-webfont-webfont.svg#JosefinSansStdLight') format('svg');
+font-weight: normal;
+font-style: normal;
+}

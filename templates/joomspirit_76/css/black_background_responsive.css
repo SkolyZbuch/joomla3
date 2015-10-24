@@ -1,0 +1,45 @@
+/**  			MEDIA QUERIES for Black Background	  **/
+
+
+@media screen and (max-width: 979px) {
+
+	.left_column .moduletable, right_column .moduletable {
+	border-color : #333;
+	background: transparent url(../images/black-03.png) 0 0 repeat;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	.top_menu li {
+	margin:10px 0 0 5px ;
+	height:auto;
+	background-image : none;
+	opacity:1.0;
+	-ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=100)";  	/* hack IE8 	*/
+	filter: apha(opacity = 100); 											/* hack IE7		*/
+	}
+	
+	.top_menu li:hover {
+	opacity:1;
+	-ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=100)";  	/* hack IE8 	*/
+	filter: apha(opacity = 100); 											/* hack IE7		*/
+	}
+	
+	.top_menu li a {
+	text-shadow:none;
+	background-image : none;
+	font-size:80%;
+	color:#888;
+	margin-right:0px;
+	padding: 0px 13px ;
+	border-left:1px solid #3f3f3f;
+	height:auto;
+	}
+	
+	.top_menu li:first-child a {
+	border-left:none;
+	}
+
+}

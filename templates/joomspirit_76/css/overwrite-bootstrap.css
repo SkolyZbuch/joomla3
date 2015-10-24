@@ -1,0 +1,108 @@
+/**
+**				Special CSS code to according with Bootstrap
+**/
+
+body {
+background-color : inherit;
+}
+
+.hero-unit h1 {
+background-color : transparent ;
+}
+
+#main_component ul.nav {
+margin : 0 0 20px 0;
+}
+
+#main_component .navbar ul.nav {
+margin : 0 10px 0 0;
+}
+
+#main_component ul.nav-list {
+margin : 0;
+}
+
+#main_component ul.dropdown-menu li, #main_component ul.nav li, #main_component ul.nav-list li {
+background-image : none;
+margin : 0 ;
+padding : 0 ;
+}
+
+.nav > li > a:hover {
+background-color : transparent;
+}
+
+.contact-address.dl-horizontal dt {
+text-align:left;
+float:none;
+margin-bottom:8px;
+}
+
+.dropdown-menu a, .dropdown-menu a:hover,
+.nav li a, .nav li a:hover, .nav-list li a, .nav-list a:hover {
+-webkit-transition : none;
+-moz-transition : none;
+-ms-transition : none;
+-o-transition : none;
+transition : none;
+text-shadow : none  !important;
+}
+
+.navbar {
+line-height:20px;
+}
+
+.breadcrumb {
+background-color : transparent;
+}
+
+label, input, button, select, textarea {
+font-size:100%;
+}
+
+#main_component .thumbnails > li {
+background-image:none;
+padding:0;
+margin: 0 0 20px 18px;
+}
+
+.page-header {
+border-bottom: none;
+margin: 0;
+padding: 0;
+}
+
+.pager {
+text-align:left;
+}
+
+.pager a, .pager span {
+background-color: transparent;
+border: none;
+border-radius: 0;
+display: block;
+padding: 0;
+}
+
+.pager a:hover {
+background-color: transparent;
+}
+
+.navbar-search .search-query, .navbar-search .search-query:hover, .navbar-search .search-query:active {
+color: #999;
+}
+
+.form-actions {
+background-color: transparent ;
+border-top: none;
+}
+
+/**		table		**/
+
+.table td, .table th {
+background-color : rgba(255, 255, 255, 0.40);
+}
+
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
+background-color: rgba(255, 255, 255, 0.15);
+}

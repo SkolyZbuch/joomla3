@@ -1,0 +1,381 @@
+/**
+*
+*		Media queries
+*
+**/
+
+
+body {
+-webkit-text-size-adjust: none;
+}
+
+
+.hidden {
+display: none;
+visibility: hidden;
+}
+
+.visible-phone {
+display: none !important;
+}
+
+.visible-tablet {
+display: none !important;
+}
+
+.hidden-desktop {
+display: none !important;
+}
+
+.visible-desktop {
+display: block !important;
+}
+
+
+
+/* Portrait tablet to landscape and desktop */
+@media screen and (max-width: 979px) {
+
+
+	.hidden-desktop {
+	display: block !important;
+	}
+	.visible-desktop {
+	display: none !important ;
+	}
+	.visible-tablet {
+	display: block !important;
+	}
+	.hidden-tablet {
+	display: none !important;
+	}
+
+}
+
+
+/* Phone and little tablet */
+@media screen and (max-width: 767px) {
+
+
+	.hidden-desktop {
+	display: block !important;
+	}
+	.visible-desktop {
+	display: none !important;
+	}
+	.visible-tablet {
+	display: none !important;
+	}
+	.hidden-tablet {
+	display: block !important;
+	}
+	.visible-phone {
+	display: block !important;
+	}
+	.hidden-phone {
+	display: none !important;
+	}
+	
+}
+
+
+@media screen and (max-width: 979px) {
+
+	.wrapper-site {
+	width:95%;
+	}
+	
+	.logo {
+	float:none;
+	clear:both;
+	text-align:center;
+	padding:25px 0 5px 0;
+	}
+	
+	#search {
+	float: none;
+	position: absolute;
+	bottom: -20px;
+	right: 0;
+	}
+
+	/** 	remove the fixed width of Google map 		**/
+	
+	div[id*="googlemap"] {
+	width:auto !important;
+	}
+	
+	/** 	CONTENT 	**/
+	
+	
+	.left_column, right_column {
+	float:none;
+	margin: 12px 0 12px 0;
+	border:none;
+	width : auto ;
+	clear:both;
+	}
+	
+	.right_column {
+	overflow:visible;
+	}
+	
+	.left_column .moduletable, right_column .moduletable {
+	clear:both;
+	border:1px solid #e3e3e3;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	background: transparent url(../images/black-03.png) 0 0 repeat;
+	}
+	
+	
+	.submenu li {
+	display : inline-block;
+	margin : 0 1%;
+	width:48%;
+	}
+	
+	.submenu li li {
+	text-align:left;
+	float:none;
+	margin : 2px 2px;
+	width:100%;
+	}
+	
+	.submenu li li a, .submenu li li span.separator {
+	text-align:left;
+	padding-top:4px;
+	padding-bottom:3px;
+	}
+	
+	.submenu li.active a, .submenu li.active span.separator,
+	.submenu li.active a:hover, .submenu li.active span.separator:hover {
+	margin-left: 0;
+	width:auto;
+	}
+	
+	.submenu li li a, .submenu li li span.separator,
+	.submenu li.active li a, .submenu li.active li span.separator {
+	background-position : 5px 10px;
+	}
+	
+	
+	
+	/** 	FOOTER 		**/
+	
+	.address {
+	}
+	
+	.bottom_menu li a, .bottom_menu li span.separator {
+	padding: 5px 7px 4px 7px;
+	}
+	
+	#search .inputbox {
+	width:72px;
+	}
+	
+	.bottom_menu.with_social_icons {
+	margin:0 0 0 -12px;
+	}
+	
+	/**		Main menu 			**/
+
+	.main_menu_box{
+	float:left;
+	width:100%;
+	}
+	
+	.main_menu_box > div {
+	padding-bottom:10px;
+	}
+	
+	.dropdown li ul, .dropdown li ul ul {
+	top:100%;
+	left:12%;
+	width:88%;
+	margin-top:0;
+	}
+	
+	.dropdown li {
+	text-align:center;
+	float:left;
+	margin : 0px 1% 1px 1%;
+	width:48%;
+	}
+	
+	.dropdown li li {
+	text-align:left;
+	float:none;
+	margin : 2px 2px;
+	width:auto;
+	}
+	
+	.dropdown li a, .dropdown li span.separator {
+	text-align:left;
+	padding : 7px 0;
+	}
+	
+	.dropdown li.active a, .dropdown li.active span.separator,
+	.dropdown li.active a:hover, .dropdown li.active span.separator:hover {
+	margin-left: 0;
+	width:auto;
+	}
+	
+	.dropdown li li a, .dropdown li li span.separator {
+	padding:9px 12px 9px 12px;
+	width:auto;
+	}
+
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+	.user1, .user2, .user3, .user4, .user5, .user6, .right-module-position {
+	float:none;
+	padding:0;
+	margin:0;
+	width : 100% !important;
+	clear:both;
+	}
+	
+	/* ++++++++++++++  blog  ++++++++++++++ */
+	
+	.cols-2 .column-1 {
+	width:auto;
+	float:none;
+	}
+	
+	.cols-2 .column-2 {
+	width:auto;
+	float:none;
+	}
+	
+	.cols-3 .column-1 {
+	float:none;
+	width:auto;
+	padding:0;
+	margin-right:0;
+	}
+	
+	.cols-3 .column-2 {
+	float:none;
+	width:auto;
+	width:auto;
+	padding:0;
+	}
+	
+	.cols-3 .column-3 {
+	float:none;
+	width:auto;
+	padding:0;
+	}
+	
+	.column-1, .column-2, .column-3 {
+	padding:10px 0px;
+	}
+	
+	.column-2 {
+	width:auto;
+	margin-left:0;
+	}
+	
+	.column-3 {
+	width:auto;
+	}
+	
+	
+	/** 			TOP MENU 		**/
+	
+	.top_menu .moduletable {
+	margin:0;
+	}
+	
+	.top_menu li {
+	margin:10px 0 0 5px ;
+	height:auto;
+	background-image : none;
+	opacity:1.0;
+	-ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=100)";  	/* hack IE8 	*/
+	filter: apha(opacity = 100); 											/* hack IE7		*/
+	}
+	
+	.top_menu li:hover {
+	opacity:1;
+	-ms-filter: "prodig:DXImageTransform.Microsoft.Alpha(Opacity=100)";  	/* hack IE8 	*/
+	filter: apha(opacity = 100); 											/* hack IE7		*/
+	}
+	
+	.top_menu li a {
+	text-shadow:none;
+	background-image : none;
+	font-size:80%;
+	margin-right:0px;
+	padding: 0px 13px ;
+	border-left:1px solid #ddd;
+	height:auto;
+	}
+	
+	.top_menu li:first-child a {
+	border-left:none;
+	}
+	
+	/** 		TRANSLATE  		**/
+	
+	#translate {
+	position: relative;
+	float: right;
+	margin: 6px 0 0;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	input[type="text"], input[type="password"], input[type="email"], textarea {
+	max-width:280px;
+	}
+	
+	fieldset dt {
+    float: none;
+    margin: 0;
+    padding:15px 20px 0 0;
+}
+
+}
+
+
+@media (max-width: 450px) {
+
+	input[type="text"], input[type="password"], input[type="email"], textarea {
+	max-width:200px;
+	}
+
+}
+
+@media (max-width: 350px) {
+
+	input[type="text"], input[type="password"], input[type="email"], textarea {
+	max-width:150px;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+textarea, table, td, th, code, pre, samp {
+word-wrap: break-word; /* passage à la ligne forcé */
+-webkit-hyphens: auto; /* césure propre */
+-moz-hyphens: auto;
+hyphens: auto;
+}
+
+code, pre, samp {
+white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+}
+
+}

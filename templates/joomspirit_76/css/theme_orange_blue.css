@@ -1,0 +1,70 @@
+.border_top_header {
+background-color : #eb6841;
+height:5px;
+}
+
+/**		COLOR	**/
+
+a, a:hover, .breadcrumb a:hover,
+.user7 .link a:hover, .user8 .link a:hover, .user9 .link a:hover {
+color : #00a0b0;
+}
+
+h1, .componentheading, .contentheading, h2 a {
+color : #00a0b0;
+}
+h1 a {
+color : #00a0b0;
+}
+
+#social-links li.text_social_icons {
+color : #00a0b0;
+}
+
+
+/**
+*			STANDARD MENU
+**/
+
+/** if hover or active **/
+.submenu li > a:hover, .submenu li > span.separator:hover, .submenu li.current > a {
+color : #00a0b0;
+}
+
+
+/**		Modules 	**/
+
+.top .moduletable:hover h3, .bottom .moduletable:hover h3, .left_column .moduletable:hover h3, .right-module-position .moduletable:hover h3, .user1 .moduletable:hover h3, .user2 .moduletable:hover h3, .user3 .moduletable:hover h3, 
+.user4 .moduletable:hover h3, .user5 .moduletable:hover h3, .user6 .moduletable:hover h3 {
+border-color : #eb6841;
+}
+
+/** 	DROP DOWN MENU 	**/
+
+.dropdown li:hover > a, .dropdown li:hover > span, .dropdown li.active > a, .dropdown li.active > span {
+color : #00a0b0;
+}
+
+.dropdown li li:hover > a, .dropdown li li:hover > span, .dropdown li li.active > a, .dropdown li li.active > span {
+background-color : #00a0b0;
+}
+
+
+/** 	CONTENT MENU 		**/
+
+.content_menu li.active a, .content_menu li:hover a, .content_menu li:focus a {
+color : #00a0b0;
+}
+
+/** 	TOP MENU 		**/
+
+.top_menu li a:hover, #top_menu li span.separator:hover {
+color : #00a0b0;
+}
+
+/** 	BOTTOM MENU 		**/
+
+.bottom_menu li a, #bottom_menu li span.separator,
+.bottom_menu li a:hover, #bottom_menu li span.separator:hover {
+color : #00a0b0;
+}

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>joomspirit_76</name>
+	<creationDate>01/09/2012</creationDate>
+	<author>JoomSpirit</author>
+	<copyright>Creative Commons Attribution-ShareAlike 2.0</copyright>
+	<authorEmail>contact@joomspirit.com</authorEmail>
+	<authorUrl>http://www.joomspirit.com</authorUrl>
+	<version>2.0</version>
+	<description><![CDATA[ 
+	<link rel="stylesheet" href="../templates/joomspirit_76/css/admin.css" type="text/css" />
+	IMPORTANT : Read the settings for this template.  
+	All informations is in your manual. You must double click on the file manual.html.  
+	You will find in how to configure the template, use the typography and the module positions for your modules.  
+	]]></description>
+
+<files>
+<filename>favicon.ico</filename>
+<filename>index.html</filename>
+<filename>index.php</filename>
+<filename>template_thumbnail.png</filename>
+<folder>css</folder>
+<folder>html</folder>
+<folder>font</folder>
+<folder>images</folder>
+<folder>lib</folder>
+</files>
+
+
+<positions>
+	<position>menu</position>
+	<position>bottom</position>
+	<position>left</position>
+	<position>right</position>
+	<position>top</position>
+	<position>search</position>
+	<position>bottom_menu</position>
+	<position>top_menu</position>
+	<position>logo</position>
+	<position>address</position>
+	<position>breadcrumb</position>
+	<position>translate</position>
+	<position>user1</position>
+	<position>user2</position>
+	<position>user3</position>
+	<position>user4</position>
+	<position>user5</position>
+	<position>user6</position>
+	<position>user7</position>
+	<position>user8</position>
+	<position>user9</position>
+</positions>
+
+
+<config>
+	<fields name="params">
+		<fieldset name="basic" addfieldpath="/templates/joomspirit_76/lib/php2">
+					
+		
+			<field name="Header01" type="header" default="Website width" label="" description="" />
+				
+				<field name="width" type="text" default="980px" size="10" label="Website width" description="Enter the width for the header and footer of your website in px or % and without space. Example : 900px or 95% . Default : 980px" />
+					
+				<field name="width_left" type="text" default="20" size="10" label="Width of left column in percentage" description="Enter the width for your left column in % . Default : 20" />
+				<field name="width_right" type="text" default="20" size="10" label="Width of right column in percentage" description="Enter the width for your right column in % . Default : 20" />
+		
+				<field name="user1_width" type="text" default="31" size="10" label="Width of user1 in percentage" description="Enter the width for user1  in percentage. Default : 31" />
+				<field name="user3_width" type="text" default="31" size="10" label="Width of user3 in percentage" description="Enter the width for user3  in percentage. Default : 31" />
+				<field name="user4_width" type="text" default="31" size="10" label="Width of user4 in percentage" description="Enter the width for user4  in percentage. Default : 31" />
+				<field name="user6_width" type="text" default="31" size="10" label="Width of user6 in percentage" description="Enter the width for user6  in percentage. Default : 31" />
+
+			<field name="Header02" type="header" default="Min Height" label="" description="" />
+				
+				<field name="min_height" type="text" default="400" size="10" label="Minimum height of content box in pixels" description="Enter the minimum height for the content box in px. Example : 500 . Default : 400" />
+			
+			
+			<field name="Header03" type="header" default="Color" label="" description="" />
+
+				<field name="general_background" type="list" default="black" label="General background theme" description="default : Black">
+					<option value="white">White</option>
+					<option value="black">Black</option>
+				</field>
+				
+				<field name="color_theme" type="list" default="blue" label="Choose your color theme" description="default : blue">				
+					<option value="blue">Blue</option>
+					<option value="orange">Orange</option>
+					<option value="green">Green</option>
+					<option value="mariner_red">Mariner Red</option>
+					<option value="pink_green">Pink Green</option>
+					<option value="yellow_green">Yellow Green</option>
+					<option value="orange_blue">Orange Blue</option>
+				</field>				
+			
+				
+			<field name="Header04" type="header" default="Font" label="" description="" />
+					
+				<field name="font" type="list" default="Metrophobic" label="Font for your menu and article title" description="default : Open Sans">
+					
+					<option value="Open+Sans:300">Open Sans</option>
+					<option value="Aldrich">Aldrich</option>
+					<option value="Metrophobic">Metrophobic</option>
+					<option value="Maven+Pro">Maven Pro</option>
+					<option value="Josefin">Josefin</option>			
+					<option value="Nobile">Nobile</option>			
+					<option value="Kreon">Kreon</option>
+					<option value="Arial">Arial</option>
+					<option value="trebuchet">Trebuchet</option>
+					<option value="georgia">Georgia</option>
+					<option value="Times new roman">Times new roman</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Tahoma">Tahoma</option>
+				</field>
+				
+				<field name="font_content" type="list" default="Verdana" label="Font for your content" description="default : Verdana">
+					<option value="Trebuchet ms">Trebuchet ms</option>
+					<option value="Arial">arial</option>
+					<option value="Comic sans ms">Comic sans MS</option>
+					<option value="georgia">Georgia</option>
+					<option value="Times new roman">Times new roman</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Tahoma">Tahoma</option>
+				</field>		
+			
+				<field name="fontSize" type="list" default="0.75em" label="Default font size" description="default : normal">
+					<option value="0.55em">smallest</option>
+					<option value="0.65em">small</option>
+					<option value="0.75em">normal</option>
+					<option value="0.85em">big</option>
+					<option value="0.95em">biggest</option>
+				</field>
+				
+			<field name="Header05" type="header" default="Social icons" label="" description="" />
+			
+				<field name="text_social_icons" type="text" default="" label="Text before your social icons" description=" " />
+				
+				<field name="twitter" type="text" default="" size="30" label="Twitter URL " description="" />
+				<field name="blogger" type="text" default="" size="30" label="Blogger URL " description="" />
+				<field name="facebook" type="text" default="" size="30" label="Facebook URL " description="" />
+				<field name="rss" type="text" default="" size="30" label="RSS URL " description="" />
+				<field name="linkedin" type="text" default="" size="30" label="Linkedin URL " description="" />
+				<field name="myspace" type="text" default="" size="30" label="MySpace URL " description="" />
+				<field name="delicious" type="text" default="" size="30" label="Delicious URL " description="" />
+				<field name="flickr" type="text" default="" size="30" label="Flickr URL " description="" />
+				<field name="youtube" type="text" default="" size="30" label="Youtube URL " description="" />
+				<field name="vimeo" type="text" default="" size="30" label="Vimeo URL " description="" />
+				<field name="yahoo" type="text" default="" size="30" label="Yahoo Messenger URL " description="" />
+				<field name="digg" type="text" default="" size="30" label="Digg URL " description="" />
+				<field name="picasa" type="text" default="" size="30" label="Picasa URL " description="" />
+				<field name="stumbleupon" type="text" default="" size="30" label="Stumbleupon URL " description="" />
+				<field name="technorati" type="text" default="" size="30" label="Technorati URL " description="" />
+				<field name="tumblr" type="text" default="" size="30" label="Tumblr URL " description="" />
+			
+				<field name="google1" type="list" default="no" label="Enable Google +1 icon" description="">
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+
+			<field name="Header06" type="header" default="Responsive design" label="" description="" />
+				
+				<field name="responsive" type="list" default="yes" label="Enable responsive feature" description="The design change when the screen resolution is less of 980 pixels : better for mobile devices">				
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				
+				<field name="column_responsive" type="list" default="no" label="Display left and right column under the content in small resolution" description="Disable this option if you use a javascript animation in your column.">				
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+
+			
+			<field name="Header07" type="header" default="Bootstrap and Jquery" label="" description="" />
+			
+				<field name="bootstrap" type="list" default="no" label="Load Bootstrap 2.1.1" description="Disable this option if you doesn't the extra features of Bootstrap">					
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+
+				<field name="jquery" type="list" default="no" label="Load Jquery" description="Disable this option only if the website load a more recent version of Jquery or if you don't use Bootstrap animation">					
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</field>
+				
+			
+	</fieldset>
+	</fields>		
+
+</config>
+
+</extension>

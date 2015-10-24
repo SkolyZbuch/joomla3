@@ -1,0 +1,209 @@
+/*****************************************
+		SITE  IE8-
+******************************************/
+
+.middle-site img {
+max-width: inherit;
+}
+
+.main_menu li ul {
+border:2px solid #ddd;
+background-color: #f3f3f3;
+border-top:none;
+}
+
+.main_menu li li ul {
+border:2px solid #ddd;
+}
+
+body.black .main_menu li ul, body.black .main_menu li li ul {
+border-color: #282828;
+background-color: #333;
+}
+
+/**		Search				**/
+
+.search-module {
+float:none;
+position:absolute;
+top:10px;
+right:10px;
+width:120px;
+padding: 8px 10px 6px 0px;
+}
+
+.middle-site .search-module {
+position:relative;
+top:0;
+right:0;
+float:right;
+}
+
+.search-module .inputbox {
+width:120px;
+margin-left:0;
+}
+
+.search-module .inputbox:focus {
+width : 120px;
+margin-left:0;
+}
+
+.search-module .button {
+right:0px;
+}
+
+/** 	Resize images 		**/
+
+img, embed, object, video, .scale {
+/* IE7-8 need help adjusting responsive images */
+width: auto;
+}
+
+/**		CONTENT MENU		**/
+
+.content_menu li.active a, .content_menu li:hover a {
+background-color: #f3f3f3;
+border:1px solid #e9e9e9;
+}
+
+.content_menu li a:active {
+background-color: #f0f0f0;
+border-color:#e6e6e6;
+}
+
+body.black .content_menu li.active a, body.black .content_menu li:hover a {
+background-color: #111;
+border-color:#333;
+}
+
+body.black .content_menu li a:active {
+background-color: #222;
+border-color:#444;
+}
+
+
+/**		BOTTOM MENU 		**/
+
+.bottom_menu li.active a, .bottom_menu li:hover a {
+background-color: #efefef;
+border:1px solid #e6e6e6;
+}
+
+.bottom_menu li a:active {
+background-color: #ebebeb;
+border-color:#e2e2e2;
+}
+
+body.black .bottom_menu li.active a, body.black .bottom_menu li:hover a {
+background-color: #111;
+border-color:#333;
+}
+
+body.black .bottom_menu li a:active {
+background-color: #222;
+border-color:#444;
+}
+
+
+/**  		GENERAL 		**/
+
+.readmore a {
+border:1px solid #ccc;
+}
+
+.readmore a:hover {
+border-color : #afafaf;
+}
+
+body.black .readmore a {
+border-color : #383838;
+}
+
+body.black .readmore a:hover {
+border-color : #111;
+}
+
+.actions {
+width:60px;
+}
+
+
+.search-module .inputbox {
+border : 1px solid #ddd;
+padding:3px 20px 3px 10px !important;
+height : 16px;
+}
+
+.search-module .inputbox:hover, .search-module .inputbox:focus {
+border : 1px solid #ccc;
+}
+
+body.black .search-module .inputbox {
+border-color : #383838;
+}
+
+body.black .search-module .inputbox:hover, body.black .search-module .inputbox:focus {
+border-color : #111;
+}
+
+
+/** 		specific black text 		**/
+
+/** 	Form 		**/
+
+input[type="text"], input[type="password"], input[type="email"], textarea {
+border : 1px solid #bbb;
+}
+
+input[type="text"]:hover, textarea:hover,
+input[type="password"]:hover, input[type="password"]:focus,
+input[type="email"]:hover, input[type="email"]:focus,
+input[type="text"]:focus, textarea:focus {
+border-color:#aaa;
+}
+
+input[type="submit"], button {
+border : 1px solid #bbb;
+}
+
+input[type="submit"]:hover, button:hover {
+border-color:#aaa;
+}
+
+.contact .button {
+border : 1px solid #bbb;
+}
+
+.contact .button:hover {
+border-color:#aaa;
+}
+
+
+
+body.black input[type="text"], body.black input[type="password"], body.black input[type="email"], textarea {
+border : 1px solid #383838;
+}
+
+body.black input[type="text"]:hover, body.black textarea:hover,
+body.black input[type="password"]:hover, body.black input[type="password"]:focus,
+body.black input[type="email"]:hover, body.black input[type="email"]:focus,
+body.black input[type="text"]:focus, body.black textarea:focus {
+border-color:#111;
+}
+
+body.black input[type="submit"], body.black button {
+border : 1px solid #383838;
+}
+
+body.black input[type="submit"]:hover, body.black button:hover {
+border-color:#111;
+}
+
+body.black .contact .button {
+border : 1px solid #383838;
+}
+
+body.black .contact .button:hover {
+border-color:#111;
+}

@@ -1,0 +1,55 @@
+/*****************************************
+		SITE  IE7
+******************************************/
+
+.bottom_menu li {
+margin:0px 0 0 5px ;
+display:block;
+}
+
+.bottom_menu li a, #bottom_menu li span.separator {
+display:block;
+}
+
+
+/**		GENERAL 		**/
+
+.breadcrumbs a:first-child {
+display:inline;
+text-indent: 0px;
+background-image : none;
+width:auto;
+height:auto;
+margin: 0;
+}
+
+.breadcrumbs a:first-child:hover {
+background-image : none;
+}
+
+
+.content_menu li, #___plusone_0, .pollstableborder tr .sectiontableentry1, .pollstableborder tr .sectiontableentry2,
+.categories-list dd, .categories-list dt, ul.pagenav li,
+span.content_vote input, span.content_rating img , .pagination li, .bottom_menu li, i.icon-search, .btn, .btn-toolbar .btn-group, fieldset.phrases label, fieldset.only label {
+display:inline;
+zoom:1;
+}
+
+
+/**		contact form	**/
+
+.form-horizontal .control-group {
+clear: both;
+}
+
+.nav-tabs, .nav-pills, .tab-content, .tab-pane {
+clear: both;
+}
+
+.dl-horizontal dt {
+clear: none;
+float: left;
+font-weight: bold;
+width: 100px;
+padding-right: 30px;
+}

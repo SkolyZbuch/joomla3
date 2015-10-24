@@ -1,0 +1,81 @@
+
+html, body, .site {
+background-image : none ;
+background-color : #fff;
+}
+
+body {
+font-size: 12pt;
+}
+
+.wrapper-site {
+width: auto;
+margin: 0 5%;
+padding: 0;
+border: 0;
+float: none !important;
+color: black;
+background: transparent none;
+}
+
+.header-site, .middle-site {
+background-image : none ;
+}
+
+.border_top_header, .top_menu, .main_menu_box {
+display : none;
+}
+
+.logo {
+float:none;
+clear:both;
+text-align:center;
+padding:25px 0 5px 0;
+}
+
+
+#social-links {
+display:none;
+}
+
+#translate, #search {
+display:none;
+}
+
+.logo {
+text-align:center;
+border-bottom:none;
+}
+
+.main_menu {
+display:none;
+}
+
+.actions {
+display:none;
+}
+
+.bottom_menu {
+display:none;
+}
+
+.address {
+clear: both;
+float:none;
+padding: 12px 0 0;
+text-align: center;
+}
+
+
+
+a:link, a:visited {
+color: #520;
+background-color: transparent;
+font-weight: bold;
+text-decoration: underline;
+}
+
+.content a[href]:after {
+content: " (" attr(href) ") ";
+font-size:85%;
+}
